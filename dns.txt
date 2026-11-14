@@ -4,17 +4,17 @@
  searchly.awb
  altler.awb
  altaweb.acom
-[DNSTLDS]
+[DNSTLDS]:
  .awb
  .anet
  .ant
  .dog
  .acm
  .acom
-[PROTOCOLS]
+[PROTOCOLS]:
  alt:
  atp:
-[WEBSTRUCTURES]
+[WEBSTRUCTURES]:
 --[FALLBACKMSGS]--
  [PAGENOTFOUND]
   Page Not Found!
