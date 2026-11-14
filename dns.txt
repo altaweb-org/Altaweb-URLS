@@ -1,0 +1,31 @@
+-- This is a comment. --
+
+[DNSWebsites]:
+ searchly.awb
+ altler.awb
+ altaweb.acom
+[DNSTLDS]
+ .awb
+ .anet
+ .ant
+ .dog
+ .acm
+ .acom
+[PROTOCOLS]
+ alt:
+ atp:
+[WEBSTRUCTURES]
+--[FALLBACKMSGS]--
+ [PAGENOTFOUND]
+  Page Not Found!
+  --------------------
+  The page you just searched was not found.
+  These may be the cause:
+   -Poor or no internet connection
+   -Mispelling of {VAR:RequestedWebsite}
+   -Invalid Protocol
+  Or others.
+  You probably should change the "{VAR:RequestedWebsite}" URL a bit.
+--[MISCS]--
+ [PASTEBIN-WEBSITEHANDLER]
+ toinclude
